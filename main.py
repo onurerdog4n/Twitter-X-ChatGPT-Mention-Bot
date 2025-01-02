@@ -61,7 +61,7 @@ def get_mentions(driver):
     return mentions
 
 def get_shortened_url(url):
-    api_url = f"https://ay.live/api/?api=b43ef575350a7ac2100a85da8c1a1104f2e7e7e8&url={url}"
+    api_url = f"https://ay.live/api/?api=APIKEYBURAYA&url={url}"
     payload = {}
     headers = {}
     
